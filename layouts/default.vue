@@ -31,6 +31,10 @@ html {
   margin: 0;
 }
 
+ul > li {
+  list-style-type: none;
+}
+
 .button--green {
   display: inline-block;
   border-radius: 4px;
