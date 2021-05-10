@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
-    <a href="indexcopy.vue">Link</a>
-    <JsonTest />
+  <div>
+    <!-- <ListHeader /> -->
   </div>
 </template>
 
@@ -9,11 +8,6 @@
 export default {};
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  padding: 10px 15px;
-}
+<style lang="scss">
+
 </style>
