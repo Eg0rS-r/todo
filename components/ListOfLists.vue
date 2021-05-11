@@ -107,8 +107,16 @@
           placeholder="New list"
         />
         <div class="modal__button">
-          <button type="button" class="btn btn--modal btn-secondary" @click="isListAdd = !isListAdd">Cancel</button>
-          <button type="button" class="btn btn-primary" @click="listAdd">Confirm</button>
+          <button
+            type="button"
+            class="btn btn--modal btn-secondary"
+            @click="isListAdd = !isListAdd"
+          >
+            Cancel
+          </button>
+          <button type="button" class="btn btn-primary" @click="listAdd">
+            Confirm
+          </button>
         </div>
       </div>
     </div>
@@ -260,8 +268,7 @@ export default {
       console.log("get list");
     },
     listAdd() {
-
-      this.isListAdd = !this.isListAdd
+      this.isListAdd = !this.isListAdd;
       console.log("add");
     },
     listOpen(list) {
